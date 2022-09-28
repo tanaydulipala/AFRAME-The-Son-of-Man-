@@ -4,15 +4,16 @@
   </head>
   <body>
     <a-scene>
-      <a-plane src="#ground" height="100" width="100" rotation="-90 0 0" color = "#B4C6D6"></a-plane>
-      <a-box position="0 2 -5" rotation="0 0 0" color="#FFC6A8" scale=".6 1.1 .5"></a-box>
+      <a-plane  position = "0 -2 -15"src="#ground" height="7" width="100" rotation="-60 0 0" color = "#B4C6D6"></a-plane> <!--sea-->
+      <a-box position="0 -2 -5.5" height = "2" width = "30"rotation="0 0 0" color="#9AAA93" scale=".6 1.1 .5"></a-box><!--wall-->
+      <a-box position="0 2 -5" rotation="0 0 0" color="#FFC6A8" scale=".6 1.1 .5"></a-box><!--neck-->
       <a-sky color="#D2D9C0"></a-sky> 
-      <a-box position="0 1 -5" rotation="0 0 0" color="#2E2A03" scale="2.2 2 2"></a-box>
+      <a-box position="0 0 -5" height = "2" width = "1.1"r otation="0 0 0" color="#3C4247" scale="2.2 2 2"></a-box> <!--body--> 
       <!--<a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
       <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
       <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane> -->
-      <a-sphere position="0 3.2 -5" radius=".70" color="#FFC6A8" scale="1 1 1"></a-sphere>
-      <a-sphere position="0 2.9 -4" radius=".70" color="#00FF00" scale=".6 .6 .6"></a-sphere>
+      <a-sphere position="0 3.2 -5" radius=".70" color="#FFC6A8" scale="1 1.2 1"></a-sphere><!--head-->
+      <a-sphere position="0 2.9 -4" radius=".70" color="#00FF00" scale=".6 .6 .6"></a-sphere><!--apple-->
     </a-scene>
   </body>
 </html>
